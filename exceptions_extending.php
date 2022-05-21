@@ -1,4 +1,9 @@
 <?php
+// 新しい例外クラスの作成
+class MyException extends Exception
+{
+}
+
 //
 try {
     // 自力で例外を発生させる（例外を投げる）
